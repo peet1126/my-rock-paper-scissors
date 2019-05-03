@@ -1,0 +1,69 @@
+html, * {
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player, #computer {
+  width: 20vw;
+}
+
+#tie {
+  width: 15vw;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 6vmin;
+}
+
+header {
+  font-size: 10vmin;
+  letter-spacing: 1vmin;
+}
+
+button {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  border: 4px solid black;
+  border-radius: 6px;
+  font-size: 26px;
+  outline: none;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 7vmin;
+}
+
+section > div  {
+  width: 21vmin;
+  padding: 2vmin;
+  border: 1vmin solid grey;
+}
+
+section > div > div {
+  height: 15vmin;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
